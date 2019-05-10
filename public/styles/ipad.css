@@ -1,0 +1,42 @@
+/*  MEDIA QUERIES */
+@media screen and (min-width: 480px) {
+  #icon1, #icon2 {
+    font-size:60px;
+  }
+  /*start home styling*/
+  h1 {
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Itim', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    color: #feaf80;
+    font-weight: bold;
+  }
+
+
+
+    /*Round 1 */
+
+
+    #container {
+
+      display: flex;
+      justify-content:space-between;
+    }
+    /*End of Round 1 */
+    /*Round 3*/
+    #round3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    }
+    .btn3 {
+      display:flex;
+      justify-content: center;
+      /* margin-top: 106px; */
+      margin-bottom: 50px;
+    }
+
+    /*End of Round 3*/
+  }

@@ -1,0 +1,174 @@
+@media screen and (min-width:780px)  {
+
+  button{
+    font-size:19px;
+  }
+
+  h3{
+    font-size:24px;
+  }
+  /*Start page*/
+
+  #header h1{
+    font-size: 55px;
+  }
+
+  #startpagediv{
+    max-width:660px;
+  }
+
+  #startpagediv h1{
+    font-size:50px;
+  }
+
+  #startpagediv #instructionsintro p{
+     font-size: 18px;
+   }
+
+  #startpagediv #instructions p{
+    font-size:18px;
+  }
+
+  /*Round 1 styling*/
+  .playerdiv{
+    font-size:24px;
+  }
+
+  .show h2{
+    font-size: 1em;
+    margin: 12px;
+  }
+
+  #container{
+    display:flex;
+    justify-content:center;
+  }
+
+  #container div{
+    width:45%;
+  }
+
+  #container img {
+    /* min-width: 400px; */
+  }
+
+/*Round 2 styling*/
+
+#questionform{
+  min-width:590px;
+  z-index: 2;
+  width:70%;
+  background: -webkit-linear-gradient(#7d3247, #431c26); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#7d3247, #431c26); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#7d3247, #431c26); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#431c26, #864255); /* Standard syntax */
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#Round2 h3{
+  font-weight:100;
+  font-size:23px;
+  /* margin-bottom: 9px; */
+}
+
+#Round2 h2{
+  text-align:center;
+}
+
+#Round2 input{
+  margin-bottom:0;
+}
+
+
+#Round2 #date{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin:0 0 10px 0;
+}
+
+#dateinput{
+  width:auto;
+}
+
+.cityinput{
+  width:140px;
+}
+
+#round2input{
+  width:90%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin:20px 0 10px 0;
+}
+
+
+#price{
+  width:90%;
+  z-index: 3;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+#price button{
+  width: max-content;
+  font-size:18px;
+  margin-left: 10px;
+}
+
+.alert{
+  margin-top:15px;
+}
+  .round .imgbuy, .round .imgdesserts, .round .imgarts, .round .imgotheractive {
+   min-width: 400px;
+   max-width: 400px;
+ }
+  .round .imgbuy {
+    min-width: 400px;
+    max-width: 400px;
+  }
+  .choice img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+ .choice button {
+   padding: 10px;
+ }
+ .choice {
+   width: 50%;
+ }
+ .choice label {
+   display: flex;
+   flex-direction: column;
+ }
+ #round3, #round7, #round8 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+  #event img, #round7 img, .show img {
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 400px;
+    max-width: 400px;
+  }
+  #event {
+    height: 455px;
+  }
+  .round {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  #round6In {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+}
